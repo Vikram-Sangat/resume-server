@@ -20,10 +20,14 @@
     "strapi-connector-bookshelf": "3.6.8",
     "strapi-plugin-content-manager": "3.6.8",
     "strapi-plugin-content-type-builder": "3.6.8",
+    "strapi-plugin-documentation": "^3.6.8",
     "strapi-plugin-email": "3.6.8",
+    "strapi-plugin-email-designer": "^1.1.7",
+    "strapi-plugin-graphql": "^3.6.8",
     "strapi-plugin-i18n": "3.6.8",
     "strapi-plugin-upload": "3.6.8",
     "strapi-plugin-users-permissions": "3.6.8",
+    "strapi-plugin-video-thumbnail": "^0.1.2",
     "strapi-utils": "3.6.8"
   },
   "author": {
