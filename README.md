@@ -1,2 +1,3 @@
-# resume-server
-Strapi Based setup to update resume website
+# Strapi application
+
+A quick description of your strapi application
