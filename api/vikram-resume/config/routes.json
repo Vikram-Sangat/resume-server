@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/vikram-resume",
+      "handler": "vikram-resume.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/vikram-resume",
+      "handler": "vikram-resume.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/vikram-resume",
+      "handler": "vikram-resume.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

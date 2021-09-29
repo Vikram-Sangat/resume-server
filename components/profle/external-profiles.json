@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_profle_external_profiles",
+  "info": {
+    "name": "External Profiles",
+    "icon": "business-time",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "details": {
+      "type": "text"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "linkedIn",
+        "website",
+        "github",
+        "external"
+      ]
+    }
+  }
+}

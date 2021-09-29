@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "vikram_resumes",
+  "info": {
+    "name": "vikram_resume",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contact_detail": {
+      "model": "contact-details"
+    }
+  }
+}

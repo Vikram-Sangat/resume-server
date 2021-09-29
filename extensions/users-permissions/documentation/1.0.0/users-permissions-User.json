@@ -1250,6 +1250,43 @@
                 "type": "string"
               }
             }
+          },
+          "contact_detail": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "phone_number": {
+                "type": "string"
+              },
+              "email": {
+                "type": "string"
+              },
+              "location": {
+                "type": "string"
+              },
+              "users_permissions_user": {
+                "type": "string"
+              },
+              "externalProfiles": {
+                "type": "component"
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
           }
         }
       },
@@ -1290,6 +1327,9 @@
             "default": false
           },
           "role": {
+            "type": "string"
+          },
+          "contact_detail": {
             "type": "string"
           },
           "created_by": {
