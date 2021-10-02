@@ -14,6 +14,32 @@
   "attributes": {
     "contact_detail": {
       "model": "contact-details"
+    },
+    "achievements": {
+      "collection": "achivememts"
+    },
+    "certifficates": {
+      "collection": "certifficates"
+    },
+    "education": {
+      "model": "education"
+    },
+    "skill": {
+      "model": "skills"
+    },
+    "experiences": {
+      "collection": "experience"
+    },
+    "patents": {
+      "collection": "patents"
+    },
+    "overview": {
+      "model": "overview"
+    },
+    "projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profle.project"
     }
   }
 }

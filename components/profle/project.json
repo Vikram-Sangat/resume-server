@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_profle_projects",
+  "info": {
+    "name": "Project",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "tasks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profle.task"
+    },
+    "url": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "technologies": {
+      "type": "json"
+    }
+  }
+}

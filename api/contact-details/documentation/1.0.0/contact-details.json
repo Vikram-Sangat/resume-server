@@ -584,8 +584,53 @@
               "role": {
                 "type": "string"
               },
-              "contact_detail": {
-                "type": "string"
+              "overviews": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "patents": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "contact_details": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "skills": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "experiences": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "achivememts": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "educations": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "certifficates": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
               },
               "created_by": {
                 "type": "string"

@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "contact_details",
+  "collectionName": "educations",
   "info": {
-    "name": "Contact Details",
-    "description": ""
+    "name": "education"
   },
   "options": {
     "increments": true,
@@ -12,27 +11,22 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "degree": {
       "type": "string"
     },
-    "phone_number": {
+    "institute": {
       "type": "string"
     },
-    "email": {
-      "type": "email"
-    },
-    "location": {
+    "duration": {
       "type": "string"
+    },
+    "description": {
+      "type": "text"
     },
     "users_permissions_user": {
       "plugin": "users-permissions",
       "model": "user",
-      "via": "contact_details"
-    },
-    "externalProfiles": {
-      "type": "component",
-      "repeatable": true,
-      "component": "profle.external-profiles"
+      "via": "educations"
     }
   }
 }

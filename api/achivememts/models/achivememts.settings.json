@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "contact_details",
+  "collectionName": "achivememts",
   "info": {
-    "name": "Contact Details",
+    "name": "Achievements",
     "description": ""
   },
   "options": {
@@ -12,27 +12,19 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "title": {
       "type": "string"
     },
-    "phone_number": {
+    "presentor": {
       "type": "string"
     },
-    "email": {
-      "type": "email"
-    },
-    "location": {
-      "type": "string"
+    "description": {
+      "type": "text"
     },
     "users_permissions_user": {
       "plugin": "users-permissions",
       "model": "user",
-      "via": "contact_details"
-    },
-    "externalProfiles": {
-      "type": "component",
-      "repeatable": true,
-      "component": "profle.external-profiles"
+      "via": "achivememts"
     }
   }
 }

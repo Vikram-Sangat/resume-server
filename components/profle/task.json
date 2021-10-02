@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_profle_tasks",
+  "info": {
+    "name": "Task",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    }
+  }
+}

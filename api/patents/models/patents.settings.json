@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "contact_details",
+  "collectionName": "patents",
   "info": {
-    "name": "Contact Details",
-    "description": ""
+    "name": "Patents"
   },
   "options": {
     "increments": true,
@@ -12,27 +11,22 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "url": {
       "type": "string"
     },
-    "phone_number": {
+    "title": {
       "type": "string"
     },
-    "email": {
-      "type": "email"
+    "description": {
+      "type": "text"
     },
-    "location": {
+    "patent_number": {
       "type": "string"
     },
     "users_permissions_user": {
       "plugin": "users-permissions",
       "model": "user",
-      "via": "contact_details"
-    },
-    "externalProfiles": {
-      "type": "component",
-      "repeatable": true,
-      "component": "profle.external-profiles"
+      "via": "patents"
     }
   }
 }
