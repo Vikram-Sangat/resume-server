@@ -23,15 +23,15 @@
   },
   "servers": [
     {
-      "url": "http://localhost:1337",
+      "url": "https://vikram-resume-26.herokuapp.com",
       "description": "Development server"
     },
     {
-      "url": "https://vikram-resume-26.herokuapp.com/",
+      "url": "https://vikram-resume-26.herokuapp.com",
       "description": "Staging server"
     },
     {
-      "url": "https://vikram-resume-26.herokuapp.com/",
+      "url": "https://vikram-resume-26.herokuapp.com",
       "description": "Production server"
     }
   ],
