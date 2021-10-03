@@ -58,38 +58,6 @@
       "via": "users",
       "plugin": "users-permissions",
       "configurable": false
-    },
-    "overviews": {
-      "via": "users_permissions_user",
-      "collection": "overview"
-    },
-    "patents": {
-      "via": "users_permissions_user",
-      "collection": "patents"
-    },
-    "contact_details": {
-      "via": "users_permissions_user",
-      "collection": "contact-details"
-    },
-    "skills": {
-      "via": "users_permissions_user",
-      "collection": "skills"
-    },
-    "experiences": {
-      "via": "users_permissions_user",
-      "collection": "experience"
-    },
-    "achivememts": {
-      "via": "users_permissions_user",
-      "collection": "achivememts"
-    },
-    "educations": {
-      "via": "users_permissions_user",
-      "collection": "education"
-    },
-    "certifficates": {
-      "via": "users_permissions_user",
-      "collection": "certifficates"
     }
   }
 }
