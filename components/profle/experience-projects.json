@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_profle_experience_projects",
+  "info": {
+    "name": "Experience Projects",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "url": {
+      "type": "string"
+    },
+    "technologies": {
+      "type": "json"
+    },
+    "tasks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profle.task"
+    }
+  }
+}

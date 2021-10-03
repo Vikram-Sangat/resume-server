@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_profle_certificates",
+  "info": {
+    "name": "Certificates",
+    "icon": "bacon"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "authority": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

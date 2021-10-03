@@ -663,7 +663,14 @@
                     "linkedIn",
                     "website",
                     "github",
-                    "external"
+                    "external",
+                    "phone",
+                    "email",
+                    "location",
+                    "facebook",
+                    "twitter",
+                    "hackerrank",
+                    "stackoverflow"
                   ]
                 }
               }
@@ -715,7 +722,14 @@
                     "linkedIn",
                     "website",
                     "github",
-                    "external"
+                    "external",
+                    "phone",
+                    "email",
+                    "location",
+                    "facebook",
+                    "twitter",
+                    "hackerrank",
+                    "stackoverflow"
                   ]
                 }
               }

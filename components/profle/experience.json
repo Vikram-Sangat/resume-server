@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_profle_experiences",
+  "info": {
+    "name": "Experience",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "isPresent": {
+      "type": "boolean"
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "compony_profile": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "description": {
+      "type": "text"
+    },
+    "projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profle.experience-projects"
+    }
+  }
+}

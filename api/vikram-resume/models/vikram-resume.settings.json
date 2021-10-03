@@ -12,34 +12,45 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "contact_detail": {
-      "model": "contact-details"
-    },
-    "achievements": {
-      "collection": "achivememts"
-    },
-    "certifficates": {
-      "collection": "certifficates"
-    },
-    "education": {
-      "model": "education"
-    },
-    "skill": {
-      "model": "skills"
-    },
-    "experiences": {
-      "collection": "experience"
-    },
-    "patents": {
-      "collection": "patents"
-    },
-    "overview": {
-      "model": "overview"
-    },
     "projects": {
       "type": "component",
       "repeatable": true,
       "component": "profle.project"
+    },
+    "profile": {
+      "type": "component",
+      "repeatable": false,
+      "component": "profle.profile"
+    },
+    "education": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profle.education"
+    },
+    "experience": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profle.experience"
+    },
+    "patents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profle.patent"
+    },
+    "certificates": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profle.certificates"
+    },
+    "skills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profle.skills"
+    },
+    "achievements": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profle.achievements"
     }
   }
 }

@@ -19,7 +19,14 @@
         "linkedIn",
         "website",
         "github",
-        "external"
+        "external",
+        "phone",
+        "email",
+        "location",
+        "facebook",
+        "twitter",
+        "hackerrank",
+        "stackoverflow"
       ]
     }
   }

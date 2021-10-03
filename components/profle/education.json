@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_profle_educations",
+  "info": {
+    "name": "Education",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "degree": {
+      "type": "string"
+    },
+    "institute": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "final_score": {
+      "type": "string"
+    },
+    "isComplete": {
+      "type": "boolean"
+    }
+  }
+}

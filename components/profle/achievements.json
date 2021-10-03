@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_profle_achievements",
+  "info": {
+    "name": " Achievements",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "presentor": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

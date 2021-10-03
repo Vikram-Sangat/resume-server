@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_profle_skills",
+  "info": {
+    "name": "Skills",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "skills": {
+      "type": "json"
+    }
+  }
+}
