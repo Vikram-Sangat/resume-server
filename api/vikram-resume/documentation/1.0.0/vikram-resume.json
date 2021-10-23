@@ -553,6 +553,12 @@
                     }
                   }
                 }
+              },
+              "title": {
+                "type": "string"
+              },
+              "short_name": {
+                "type": "string"
               }
             }
           },
@@ -1071,6 +1077,12 @@
                     }
                   }
                 }
+              },
+              "title": {
+                "type": "string"
+              },
+              "short_name": {
+                "type": "string"
               }
             }
           },

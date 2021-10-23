@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "10/03/2021 12:42:41 PM"
+    "x-generation-date": "10/23/2021 5:44:03 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -23,15 +23,15 @@
   },
   "servers": [
     {
-      "url": "https://vikram-resume-26.herokuapp.com",
+      "url": "http://localhost:1337",
       "description": "Development server"
     },
     {
-      "url": "https://vikram-resume-26.herokuapp.com",
+      "url": "YOUR_STAGING_SERVER",
       "description": "Staging server"
     },
     {
-      "url": "https://vikram-resume-26.herokuapp.com",
+      "url": "YOUR_PRODUCTION_SERVER",
       "description": "Production server"
     }
   ],
@@ -2824,6 +2824,12 @@
                     }
                   }
                 }
+              },
+              "title": {
+                "type": "string"
+              },
+              "short_name": {
+                "type": "string"
               }
             }
           },
@@ -3342,6 +3348,12 @@
                     }
                   }
                 }
+              },
+              "title": {
+                "type": "string"
+              },
+              "short_name": {
+                "type": "string"
               }
             }
           },
